@@ -3,6 +3,7 @@ import Navbar from "./componets/Navbar";
 
 import {auth} from './firebase'
 import {useAuthState} from 'react-firebase-hooks/auth'
+import Chat from "./componets/Chat";
 
 const style = {
   appContainer: `max-w-[720px] mx-auto text-center `,
@@ -18,7 +19,9 @@ function App() {
     <div className={style.appContainer}>
       <section className={style.sectionContainer}>
         <Navbar/>
+        <Chat/>
       </section>
+     
     </div>
   );
 }
