@@ -12,8 +12,7 @@
     "react-firebase-hooks": "^5.1.1",
     "react-google-button": "^0.7.2",
     "react-icons": "^4.11.0",
-    "react-scripts": "5.0.1",
-    "react-scroll": "^1.8.9",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
